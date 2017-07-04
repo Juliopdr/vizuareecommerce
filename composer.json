@@ -1,17 +1,17 @@
 {
-    "name": "Juliopdr/ecommerce",//autor do projeto
+    "name": "hcodebr/ecommerce",
     "authors": [
         {
-            "name": "Julio Silva",
-            "email": "teste@commerce.com.br"
+            "name": "Hcode Treinamentos",
+            "email": "suporte@hcode.com.br"
         }
     ],
-    "require": {//arquivos de dependência que usaremos
+    "require": {
     	"phpmailer/phpmailer":"5.2.22",
     	"slim/slim":"2.0",
     	"rain/raintpl":"3.0.0"
     },
-    "autoload": {//especifica o diretorio de pasta do site
+    "autoload": {
         "psr-4": {
             "Hcode\\": "vendor\\hcodebr\\php-classes\\src"
         }
