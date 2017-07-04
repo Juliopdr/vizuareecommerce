@@ -1,19 +1,19 @@
 {
-    "name": "Juliopdr/ecommerce",
+    "name": "Juliopdr/ecommerce",//autor do projeto
     "authors": [
         {
             "name": "Julio Silva",
-            "email": "ecommerce@commerce.com.br"
+            "email": "teste@commerce.com.br"
         }
     ],
-    "require": {
+    "require": {//arquivos de dependência que usaremos
     	"phpmailer/phpmailer":"5.2.22",
     	"slim/slim":"2.0",
     	"rain/raintpl":"3.0.0"
     },
-    "autoload": {
+    "autoload": {//especifica o diretorio de pasta do site
         "psr-4": {
-            "": "vendor\\hcodebr\\php-classes\\src"
+            "Hcode\\": "vendor\\hcodebr\\php-classes\\src"
         }
     }
 }
